@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUri: 'http://localhost:300/api/v1/',
+  apiUri: 'http://localhost:3000/api/v1/',
   webSocketUrl: 'ws://localhost:3000',
   wsProtocol: 'Bearer',
   RTCPeerConfiguration: {
