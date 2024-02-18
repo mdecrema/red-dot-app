@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## TO SHARE WEBCAM
+1- Open camera
+2- Set on client as Master (Click red button "I'm master client")
+3- Master client click "Join" button
+4- Master client click "Create offer" button
+------------------------------------------------------------------
+Now all other clients are able to watch the video
+5- Slave client can click "Join" and then "Create offer"
+    and now it should receive the master video
